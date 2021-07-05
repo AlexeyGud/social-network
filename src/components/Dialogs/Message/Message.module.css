@@ -1,0 +1,21 @@
+.dialog {
+	padding: 9px;
+	background-color: rgb(240, 240, 240);
+	border-radius: 10px;
+	max-width: 230px;
+	margin: 5px 20px;
+	align-self: flex-start;
+	position: relative;
+}
+.dialog:nth-child(even) {
+	align-self: flex-end;
+}
+.dialog:after {
+	content: "";
+	width: 10px;
+	height: 13px;
+	background-color: rgb(240, 240, 240);
+	position: absolute;
+	transform: rotate(45deg);
+	left: 10px;
+}

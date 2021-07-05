@@ -1,0 +1,24 @@
+.friends__item {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	max-width: 450px5px;
+	padding: 0 5px 0 5px;
+}
+.friends__item_avatar {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: orange;
+	overflow: hidden;
+}
+.friends__item_avatar img {
+	object-fit: cover;
+	height: 100%;
+}
+.friends__item_title {
+	color: cornflowerblue;
+	font-size: 12px;
+	text-align: center;
+}

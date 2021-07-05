@@ -1,0 +1,15 @@
+.friends {
+	margin-top: 50px;
+}
+.friends__title {
+	text-decoration: none;
+	color: white;
+	font-size: 26px;
+	font-weight: 400;
+	letter-spacing: 5px;
+}
+.friends__items {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -10px;
+}

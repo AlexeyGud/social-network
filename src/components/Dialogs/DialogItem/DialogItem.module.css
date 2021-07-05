@@ -1,0 +1,19 @@
+.dialog a {
+	color: white;
+	text-decoration: none;
+	padding-left: 10px;
+	font-weight: 600;
+}
+.dialog a.active {
+	color: gold;
+}
+.dialog img {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+}
+.dialog {
+	display: flex;
+	align-items: center;
+	padding-bottom: 10px;
+}
